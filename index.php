@@ -1,21 +1,15 @@
 <?php
 
 /**
- * Main template file
- * 
- * @package Aquila
+ * @package Asparagus
  */
 
 ?>
 
- <!DOCTYPE html>
- <html lang="en">
- <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wordpress Theme</title>
- </head>
- <body>
-    <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus odit ex impedit perspiciatis quaerat quas architecto reiciendis libero voluptas doloribus adipisci tenetur, voluptatem vitae ipsum mollitia, odio fugit, commodi perferendis.</h1>
- </body>
- </html>
+<?php get_header() ?>
+
+<div class="content">
+   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia inventore sint error in ratione dolorem molestiae, quasi quo iusto nesciunt explicabo fugiat a quam, quis eaque maxime soluta iste expedita.
+</div>
+
+<?php get_footer() ?>
